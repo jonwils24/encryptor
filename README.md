@@ -1,6 +1,8 @@
 # AWS Encryptor
-CLI and Python client for encrypting/decrypting a json settings file using KMS and upload to/download from S3.  Upload an encrypted copy of your secret variables from the command line and access them from your python files.
+CLI and Python2 client for encrypting/decrypting a json settings file using KMS and upload to/download from S3.  Upload an encrypted copy of your secret variables from the command line and access them from your python files.
 ## Requirements
+Python2, click link for [Python3 version](https://github.com/jonwils24/encryptor3).
+
 Must have an AWS account with access to S3 and KMS, and an AWS credentials file stored in your `~/.aws` directory with your `aws_access_key_id` and `aws_secret_access_key`:
 
 ```shell
